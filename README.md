@@ -46,6 +46,7 @@ A lightweight, modular web application built in Go and deployed using Docker, Ku
    ```bash
    go run main.go
 7.Open browser at http://localhost:8080 to check it's working.
+
 ---
 
 ### 🐳 Dockerization
@@ -53,13 +54,13 @@ A lightweight, modular web application built in Go and deployed using Docker, Ku
 9. Create a multi-stage Dockerfile to reduce image size.
 10. Build and run Docker image
 11. Push Docker image to Docker Hub
-    ---
+---
 
 ### ☸️ Kubernetes Deployment
 12. Create a k8s/ directory and add: deployment.yaml, service.yaml, ingress.yaml
 13. Install NGINX Ingress Controller.
 14. Apply Kubernetes manifests
-    ---
+---
 
 ### 📦 Helm Chart Setup
 15. Install Helm
@@ -89,7 +90,7 @@ A lightweight, modular web application built in Go and deployed using Docker, Ku
 23. Create a GitHub Actions workflow for CI.
 24. Add DockerHub credentials in GitHub Secrets.
 25. Configure CI pipeline to: Lint and test Go code, Build Docker image, Push image to DockerHub, Update Helm chart with latest tag
-    ---
+---
 
 ### 🚀 ArgoCD (CD) Setup
 26. Install ArgoCD in the cluster.
@@ -104,7 +105,7 @@ A lightweight, modular web application built in Go and deployed using Docker, Ku
    :- Username: admin
    :- Password: (decoded password)
 31. Create ArgoCD application pointing to your GitHub repo and Helm chart.
-    ---
+---
 
 ### 🌐 Domain Setup (Route53 + Ingress)
 32. Get LoadBalancer IP from Ingress.
@@ -113,12 +114,12 @@ A lightweight, modular web application built in Go and deployed using Docker, Ku
 35. Create Route53 hosted zone in AWS and add A record for your domain.
 36. Update nameservers in your domain registrar panel.
 37. Access your app at: https://your-domain/courses
-    ---
+---
 
 ### 👨‍💻 Author
  **Shyam Sahu**
  **GitHub: @shyam-dev30**
----
+ ---
 
 ### 📄 License
 This project is licensed under the MIT License
