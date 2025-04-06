@@ -53,13 +53,13 @@ A lightweight, modular web application built in Go and deployed using Docker, Ku
 9. Create a multi-stage Dockerfile to reduce image size.
 10. Build and run Docker image
 11. Push Docker image to Docker Hub
----
+    ---
 
 ### ☸️ Kubernetes Deployment
 12. Create a k8s/ directory and add: deployment.yaml, service.yaml, ingress.yaml
 13. Install NGINX Ingress Controller.
 14. Apply Kubernetes manifests
----
+    ---
 
 ### 📦 Helm Chart Setup
 15. Install Helm
