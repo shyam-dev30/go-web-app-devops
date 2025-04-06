@@ -4,7 +4,7 @@ replicaCount: 1
 image:
   repository: shyam30/go-web-app
   pullPolicy: IfNotPresent
-  tag: "v5"
+  tag: "14291181562"
 
 ingress:
   enabled: false
