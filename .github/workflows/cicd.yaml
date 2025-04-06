@@ -74,4 +74,4 @@ jobs:
       git config --global user.name: "shyam-dev30"
       git add helm/go-web-chart/values.yaml
       git commit -m "update tag in helm chart"
-      git push 
+      git push
