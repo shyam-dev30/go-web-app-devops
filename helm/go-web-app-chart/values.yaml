@@ -1,0 +1,17 @@
+
+replicaCount: 1
+
+image:
+  repository: shyam30/go-web-app
+  pullPolicy: IfNotPresent
+  tag: "v5"
+
+ingress:
+  enabled: false
+  className: ""
+  annotations: {}
+  hosts:
+    - host: devbaba.shop
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
