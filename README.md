@@ -1,19 +1,36 @@
-# Go Web Application
+# 🚀 Go Web App
 
-This is a simple website written in Golang. It uses the `net/http` package to serve HTTP requests.
+A lightweight, modular web application built in Go and deployed using Docker, Kubernetes, Helm, GitHub Actions CI/CD, and GitOps with ArgoCD. Designed to run on AWS infrastructure.
 
-## Running the server
+---
 
-To run the server, execute the following command:
+## 🧰 Tech Stack
 
-```bash
-go run main.go
-```
+- **GoLang**
+- **Docker**
+- **GitHub & GitHub Actions** (CI/CD)
+- **Kubernetes**
+- **Helm**
+- **ArgoCD** (CD)
+- **AWS Services (EC2, IAM, Route53, etc.)**
 
-The server will start on port 8080. You can access it by navigating to `http://localhost:8080/courses` in your web browser.
+---
 
-## Looks like this
+## ✅ Prerequisite
 
-![Website](static/images/golang-website.png)
+- AWS Account
+- Basic knowledge of Git, Docker, Kubernetes
+
+---
+
+## ⚙️ Setup Instructions
+
+### 🖥️ Local/Cloud Environment Setup
+
+1. Use your own machine or launch an EC2 instance (`t2.medium`, Ubuntu).
+2. Update the system:
+   ```bash
+   sudo apt update && sudo apt upgrade -y
+
 
 
